@@ -1,0 +1,198 @@
+
+
+body{
+    margin: 0;   
+}
+
+
+
+.flex-container {
+    max-width: auto;
+    max-height: auto;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
+/*///////////////// header //////////////////*/
+
+.logo_Settings{
+
+    padding-top: 5px;
+    display: flex;
+    display: inline-block;
+    z-index: 1;    
+    border-bottom-style:outset;
+    width: 100%;
+    position: fixed;
+    background-color:lightgrey;
+
+}
+
+#logo{
+
+    float: right;
+    width:2.9em;
+    height:2.9em;
+    margin-right: 6px;
+    margin-top: 5px;
+  
+}
+
+#pageTitle{
+
+
+    
+    font-size: 2em;
+    margin-left: 35%;
+    font-weight: 900;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+
+
+
+#settings{
+
+    float: left;
+    margin-left: 10px;
+    width:3em;
+    height:3em;
+    border-radius: 72px;
+    border: 1px solid grey;
+    border-style:groove;
+    box-shadow: 2px 5px #888888;
+
+}
+
+/*/////////////////////// div containers /////////////////////////////*/
+
+
+
+.div_containers{
+
+    flex: 2;
+    order: 2;
+
+
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 70px;
+    background-color: aqua;
+    width: 100%;
+    height: 150%;
+
+}
+
+
+.div_containers .home_content1{
+    display: none;
+}
+
+
+.div_containers .home_content2{
+    display: none;
+}
+
+
+.div_containers .home_content3{
+    display: none;
+}
+
+.div_containers .home_content4{
+    display: none;
+}
+
+.div_containers .home_content5{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/////////////  NAVIGATION   //////////////////*/
+
+.nav {
+    flex: 3;
+    order: 3;
+    width: 100%;
+    bottom:-1px;
+    z-index: 1;
+    background-color:lightgrey;
+    border-top-style: inset;
+    position: fixed;
+    margin-bottom: 0;
+    
+}
+
+
+.nav ul{
+    margin-bottom: 2.5px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+.nav ul li{
+    display: inline-block;
+    margin-top: -6px;
+    margin-left: -20px;
+    padding-right: 14px;
+    
+}
+
+.nav ul li a{
+
+    padding-right: 8px;
+    margin-bottom: ;
+
+
+}
+
+.nav ul li a img{
+    border-radius: 25px;
+    border: 1px solid lightyellow;
+    border-style:groove;
+    box-shadow: 2px 5px #888888;
+    padding: 0.2px;
+    background-color:silver;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
