@@ -1,61 +1,80 @@
 console.log("heelo");
 
 
-var home1 = document.getElementsByClassName("home_content2");
-
-var home2 = document.getElementsByClassName("home_content");
 
 
 
 
 
 
-$('#show1').click(function(){
 
-    $(".home_content1").show("slow");// you can use toggle
-    $(".home_content2").hide("slow");
-    $(".home_content3").hide("slow");
-    $(".home_content4").hide("slow");
-    $(".home_content5").hide("slow");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$('#show_aboutUs').click(function(){
+
+    $(".aboutUs").show("slow");// you can use toggle
+    $(".matches").hide("slow");
+    $(".home").hide("slow");
+    $(".contacts").hide("slow");
+    $(".policies_rules").hide("slow");
 });
 
 
 
-$('#show2').click(function(){
+$('#show_matches').click(function(){
 
-    $(".home_content2").show("slow");// you can use toggle
-    $(".home_content1").hide("slow");
-    $(".home_content3").hide("slow");
-    $(".home_content4").hide("slow");
-    $(".home_content5").hide("slow");
+    $(".matches").show("slow");// you can use toggle
+    $(".aboutUs").hide("slow");
+    $(".home").hide("slow");
+    $(".contacts").hide("slow");
+    $(".policies_rules").hide("slow");
 });
 
 
-$('#show3').click(function(){
+$('#show_home').click(function(){
 
-    $(".home_content3").show("slow");// you can use toggle
-    $(".home_content1").hide("slow");
-    $(".home_content2").hide("slow");
-    $(".home_content4").hide("slow");
-    $(".home_content5").hide("slow");
+    $(".home").show("slow");// you can use toggle
+    $(".aboutUs").hide("slow");
+    $(".matches").hide("slow");
+    $(".contacts").hide("slow");
+    $(".policies_rules").hide("slow");
 });
 
 
-$('#show4').click(function(){
+$('#show_contacts').click(function(){
 
-    $(".home_content4").show("slow");// you can use toggle
-    $(".home_content1").hide("slow");
-    $(".home_content2").hide("slow");
-    $(".home_content3").hide("slow");
-    $(".home_content5").hide("slow");
+    $(".contacts").show("slow");// you can use toggle
+    $(".aboutUs").hide("slow");
+    $(".matches").hide("slow");
+    $(".home").hide("slow");
+    $(".policies_rules").hide("slow");
 });
 
 
-$('#show5').click(function(){
+$('#show_rulesPolicies').click(function(){
 
-    $(".home_content5").show("slow");// you can use toggle
-    $(".home_content1").hide("slow");
-    $(".home_content2").hide("slow");
-    $(".home_content3").hide("slow");
-    $(".home_content4").hide("slow");
+    $(".policies_rules").show("slow");// you can use toggle
+    $(".aboutUs").hide("slow");
+    $(".matches").hide("slow");
+    $(".home").hide("slow");
+    $(".contacts").hide("slow");
 });
