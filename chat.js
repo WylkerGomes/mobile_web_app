@@ -4,7 +4,7 @@ document.getElementById("login").addEventListener("click", login);
 document.getElementById("create-post").addEventListener("click", writeNewPost);
 
 
-getPosts();
+
 
 
 
@@ -26,6 +26,7 @@ function login() {
 
     console.log("login");
 
+    getPosts();
 }
 
 

@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content= "width=device-width, initial-scale=1.0">
-        <meta name="author" content="Lee Knowlton" />
-        <meta name="description" content="The NYSL Homepage" />
+        <meta charset="utf-8"/>
+        <meta name="viewport" content= "width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="The NYSL Homepage"/>
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="mobile-web-app-capable" content="yes"> 
+
         <title>NYSL Home - Northside Youth Soccer League</title>
-        <link href="css/nysl_3.css" rel="stylesheet" type="text/css" />
+
+        <link href="css/nysl_3.css" rel="stylesheet" type="text/css"/>
+        <link rel="apple-touch-icon" href="css/images/nysl_logo.png"/>
+        <link rel="apple-touch-icon-precomposed" href="css/images/nysl_logo.png"/>
+
     </head>
 
     <body>
@@ -22,15 +28,15 @@
 
             </div>
 
-           <div class="settings_page">
-            
-            
-            <button id="logout" class="button is-info">Logout!</button>
-            
-            
-        </div>
-           
-           
+            <div class="settings_page">
+
+
+                <button id="logout" class="button is-info">Logout!</button>
+
+
+            </div>
+
+
             <div class="div_containers">    
 
                 <div class="home">
@@ -61,7 +67,7 @@
                     <div class="inputs">
                         <input id="textInput" class="input" type="text" placeholder="Your message...">
 
-<!--                        <button id="login" class="button is-info">Login!</button>-->
+                        <!--                        <button id="login" class="button is-info">Login!</button>-->
                         <button id="create-post" class="button is-primary">Send</button>
                     </div>
                 </div>
@@ -126,16 +132,31 @@
 
         <div class="login_page">
 
+            <img id="players_image" src="css/images/design1_image1.jpg" alt="players">
+            <img id="cartoony_field" src="css/images/soccer.png" alt="cartoony field">
+            <img id="football_field" src="css/images/soccer_field_311115.jpg" alt=" football field">
+            
+             
+            <!--            <label for="uname"><b>Username</b></label>-->
+            <input id = "username_login" type="text" placeholder="Enter Username" name="uname" required>
+            <!--            <label for="psw"><b>Password</b></label>-->
+            <input id = "password_login" type="password" placeholder="Enter Password" name="psw" required>
 
-                        <button id="login" class="button is-info">Login!</button>
+
+            <button id="login" class="button is-info" > <img src="css/images/login.png" style="width:71px;height:75px;"></button>
+            <button id="register" class="button is-info"> REGISTER </button>
+
+
+
+
 
         </div>
 
-        
-        
-        
-        
-        
+
+
+
+
+
 
         <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
         <script>
