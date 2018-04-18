@@ -1,3 +1,4 @@
+
 var database = gamesData;
 
 $(document).ready(function () { // this is to show the data in your document. it calls all the functions that you made
@@ -16,12 +17,10 @@ $.each(gamesData, function (key, value) { // key is what is inside of the object
 
     template += `
                     <div class="flip3D">
-
                         <div class="month">
                             <div class ="front">                 
                                 <h2>${key}</h2>
                             </div>
-
                             <div class ="back">
     
     `;
@@ -50,7 +49,7 @@ $.each(gamesData, function (key, value) { // key is what is inside of the object
             <br> 
 
                  </div>
-            </div>
+            
         </div>
 `;
 
@@ -61,21 +60,23 @@ $.each(gamesData, function (key, value) { // key is what is inside of the object
 
 document.getElementById("matches").innerHTML = template;
 
-
-
-
-
-
-
+//$('.back').click(function () {
+// 
+//    console.log("hi");
+//    $(".back").hide("slow"); 
+//    $(".back").style.display = "none";
+//    $(".front").show("slow");
+//    
+//});
 
 
 
 $('#login').click(function () {
  
     console.log("hi");
-    $(".flex-container").show("slow"); 
+    $(".flex-container").show("slow");
     $(".login_page").hide("slow");
-    
+    $("#matches").show("slow");
 });
 
 $('#logout').click(function () {
@@ -84,18 +85,14 @@ $('#logout').click(function () {
     $(".flex-container").hide("slow"); 
     $(".login_page").show("slow");
     $(".settings_page").hide("slow");
-    
 });
-
 
 $('#settings').click(function () {
  
     console.log("hi");
     $(".flex-container").show("slow"); 
     $(".settings_page").toggle("slow");
-    
 });
-
 
 $('#show_chat').click(function () {
 
