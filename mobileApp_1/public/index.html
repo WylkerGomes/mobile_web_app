@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content= "width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="The NYSL Homepage"/>
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="mobile-web-app-capable" content="yes"> 
+
+        <title>NYSL Home - Northside Youth Soccer League</title>
+
+        <link href="css/nysl_3.css" rel="stylesheet" type="text/css"/>
+        <link rel="apple-touch-icon" href="css/images/nysl_logo.png"/>
+        <link rel="apple-touch-icon-precomposed" href="css/images/nysl_logo.png"/>
+
+    </head>
+
+    <body>
+
+
+
+        <div class="flex-container">  
+
+            <div class="logo_Settings">    
+                <img id="settings" src="css/images/settings.png" alt="SETTINGS">
+                <img id="logo"src="css/images/nysl_logo.png" alt="LOGO">
+                <p id="pageTitle">NYSL</p>
+
+            </div>
+
+            <div class="settings_page">
+
+                <address>
+                    <p><span style="float: left;"><strong>Phone:</strong> (630) 690-8132</span></p>
+                    <p style="text-align: left"><strong>Email:</strong> <a href="mailto:michael.randall@chisoccer.org">michael.randall@chisoccer.org</a></p>
+                </address>
+
+                <button id="logout" class="button is-info">Logout!</button>
+
+
+            </div>
+
+
+            <div class="div_containers">    
+
+                <div class="home">
+                    <div id="HighLights">
+                        <h2>August 4</h2>
+                        <p class="indent">NYSL Fundraiser</p>
+
+                        <h2>August 16</h2>
+                        <p class="indent">Season Kick-off: Meet the Teams</p>
+
+                        <h2>September 1</h2>
+                        <p class="indent"> First Game of the Season (Check Game Schedule for details)</p>
+                    </div>
+                </div>
+
+
+
+                <div id="matches">
+                </div>
+
+
+
+                <div class="chat">
+                    <div id="posts" class="receiver_container">
+                        Loading posts...
+                    </div>
+
+                    <div class="inputs">
+                        <input id="textInput" class="input" type="text" placeholder="Your message...">
+
+                        <!--                        <button id="login" class="button is-info">Login!</button>-->
+                        <button id="create-post" class="button is-primary">Send</button>
+                    </div>
+                </div>
+
+
+
+                <div class="contacts">
+                    <div id="HighLights3">
+
+                        <div id="bodycontent">
+
+                            <h2> About Us </h2>
+
+                            <h3>Mission</h3>
+                            <p class="indent">To support young athletes living in Chicago's northside neighborhoods, who have an interest in learning and playing soccer, with opportunities to learn and practice skills related to the game of soccer, specifically those skills around team cooperation and good sportsmanship.</p>
+
+                            <h3>Vision</h3>
+                            <p class="indent">The Northside Youth Soccer League aspires to develop strong, well-rounded, and mindful athletes through the building of character, self-discipline, and leadership.</p>
+
+                            <h3>General Information</h3>
+                            <p class="indent">The Northside Youth Soccer League was established in 1996 to provide athletes residing in Chicago's northside neighborhoods an environment in which to learn and play soccer. To be a member of NYSL, you must be between the ages of 4 - 12 and reside in a Chicago northside neighborhood. NYSL is run by a small full-time staff, and relies on the generous volunteer time of parents and previous league members.</p>
+                        </div>
+
+                        <br>
+
+                        <h2> More Info </h2>
+
+                        <p><strong>Facility Type:</strong> Outdoor</p>
+                        <p><strong>Additional Information:</strong> If deemed necessary by NYSL, games may be shortened or cancelled due to extreme weather conditions.</p> 
+                        <p><strong>Please direct all questions to:</strong> Michael Randall, League Coordinator</p>
+
+                        <p>Please email us at <a href="mailto:nysl@chisoccer.org">nysl@chisoccer.org</a></p>
+                        <p>We will reply to your email as soon as we can.</p>
+
+
+                    </div>
+                </div>
+
+
+
+                <div id="rules_policies">
+                </div>
+
+
+            </div>
+
+
+
+
+            <div class="nav"> 
+                <ul>
+                    <!--                    <li  onclick="myFunction()"><a href="about.html"><img src="css/images/about_NYSL.png" alt="NYSL" style="width:3em;height:3em;"></a></li>-->
+                    <li id="show_chat" ><a href="#"><img src="css/images/about_NYSL.png" alt="NYSL" style="width:3em;height:3em;"></a></li>
+                    <li id="show_matches" ><a href="#"><img src="css/images/football-field.png" alt="MATCHES" style="width:3em;height:3em;"></a></li>
+                    <li id="show_home" ><a href="#"><img src="css/images/Home.png" alt="HOME" style="width:3em;height:3em;"></a></li>
+                    <li id="show_contacts" ><a href="#"><img src="css/images/info_log.png" alt="INFO" style="width:3em;height:3em;"></a></li>
+                    <li id="show_rulesPolicies" ><a href="#"><img src="css/images/Rules.png" alt="RULES" style="width:3em;height:3em;"></a></li>
+                </ul>
+            </div>  
+
+            <!--about.html-->
+            <!--info.html--> 
+            <!--index.html-->
+            <!--contact.html-->
+            <!--rules.html-->
+
+        </div>
+
+
+
+
+        <div class="login_page">
+
+            <img id="players_image" src="css/images/design1_image1.jpg" alt="players">
+            <img id="cartoony_field" src="css/images/soccer.png" alt="cartoony field">
+            <img id="football_field" src="css/images/soccer_field_311115.jpg" alt=" football field">
+
+
+            <!--            <label for="uname"><b>Username</b></label>-->
+            <input id = "username_login" type="text" placeholder="Enter Username" name="uname" required>
+            <!--            <label for="psw"><b>Password</b></label>-->
+            <input id = "password_login" type="password" placeholder="Enter Password" name="psw" required>
+
+
+            <button id="login" class="button is-info" > <img src="css/images/login.png" style="width:71px;height:75px;"></button>
+            <button id="register" class="button is-info"> REGISTER </button>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+        <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+        <script>
+            // Initialize Firebase
+            var config = {
+                apiKey: "AIzaSyCrU_M2XARNfMjE9zkpB9R7HCxgI8gZh_M",
+                authDomain: "matches-d72bd.firebaseapp.com",
+                databaseURL: "https://matches-d72bd.firebaseio.com",
+                projectId: "matches-d72bd",
+                storageBucket: "",
+                messagingSenderId: "708897313990"
+            };
+            firebase.initializeApp(config);
+        </script>
+
+
+
+
+
+
+        <script src="javascript/chat.js"></script>
+        <script src="javascript/matches_data.js"></script>
+        <script type="text/javascript" src="javascript/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="javascript/bootstrap.js"></script>
+        <script type="text/javascript" src ="javascript/jquery-3.3.1.js"></script>
+        <script type="text/javascript" src="javascript/logic.js"></script>
+        <script type="text/javascript" src="javascript/Rules_Policies.js"></script>
+
+
+    </body>
+</html>
